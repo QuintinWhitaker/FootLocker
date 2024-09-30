@@ -68,5 +68,23 @@ namespace FootLocker.Properties {
                 return ResourceManager.GetStream("Cash_Register_Cha_Ching_SoundBible_com_184076484", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Hello_SoundBible_com_1812488315 {
+            get {
+                return ResourceManager.GetStream("Hello_SoundBible_com_1812488315", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Loud_Bang_Osama_Bin_Laden_925764326 {
+            get {
+                return ResourceManager.GetStream("Loud_Bang_Osama_Bin_Laden_925764326", resourceCulture);
+            }
+        }
     }
 }

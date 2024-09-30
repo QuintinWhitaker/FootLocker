@@ -83,5 +83,11 @@
   <ItemGroup>
     <None Include="Resources\Cash Register Cha Ching-SoundBible.com-184076484.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hello-SoundBible.com-1812488315.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loud_Bang-Osama_Bin_Laden-925764326.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

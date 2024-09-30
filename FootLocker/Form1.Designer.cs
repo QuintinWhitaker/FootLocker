@@ -57,6 +57,7 @@
             // 
             this.title.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.title.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.title.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.title.Location = new System.Drawing.Point(13, 9);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(783, 32);
@@ -72,7 +73,6 @@
             this.shoesLabel.Size = new System.Drawing.Size(129, 23);
             this.shoesLabel.TabIndex = 1;
             this.shoesLabel.Text = "Number Of Shoes:";
-            this.shoesLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // hatsLabel
             // 
@@ -84,7 +84,6 @@
             this.hatsLabel.Size = new System.Drawing.Size(105, 16);
             this.hatsLabel.TabIndex = 2;
             this.hatsLabel.Text = "Number Of Hats:";
-            this.hatsLabel.Click += new System.EventHandler(this.label2_Click);
             // 
             // shirtsLabel
             // 
@@ -96,7 +95,6 @@
             this.shirtsLabel.Size = new System.Drawing.Size(110, 16);
             this.shirtsLabel.TabIndex = 3;
             this.shirtsLabel.Text = "Number Of Shirts:";
-            this.shirtsLabel.Click += new System.EventHandler(this.label3_Click);
             // 
             // shoesOutput
             // 
@@ -111,7 +109,6 @@
             this.hatsOutput.Name = "hatsOutput";
             this.hatsOutput.Size = new System.Drawing.Size(100, 20);
             this.hatsOutput.TabIndex = 5;
-            this.hatsOutput.TextChanged += new System.EventHandler(this.hatsOutput_TextChanged);
             // 
             // shirtsOutput
             // 
@@ -124,6 +121,7 @@
             // 
             this.calculateButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.calculateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calculateButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.calculateButton.Location = new System.Drawing.Point(12, 128);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Size = new System.Drawing.Size(241, 33);
@@ -162,7 +160,6 @@
             this.totalLabel.Size = new System.Drawing.Size(41, 16);
             this.totalLabel.TabIndex = 10;
             this.totalLabel.Text = "Total:";
-            this.totalLabel.Click += new System.EventHandler(this.label3_Click_1);
             // 
             // subtotalOutput
             // 
@@ -213,6 +210,7 @@
             // 
             this.changeButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.changeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.changeButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.changeButton.Location = new System.Drawing.Point(15, 324);
             this.changeButton.Name = "changeButton";
             this.changeButton.Size = new System.Drawing.Size(238, 37);
@@ -244,6 +242,7 @@
             // 
             this.printLabel.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.printLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.printLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.printLabel.Location = new System.Drawing.Point(19, 401);
             this.printLabel.Name = "printLabel";
             this.printLabel.Size = new System.Drawing.Size(235, 37);
@@ -256,7 +255,7 @@
             // 
             this.receiptLabel.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.receiptLabel.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.receiptLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.receiptLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.receiptLabel.Location = new System.Drawing.Point(282, 50);
             this.receiptLabel.Name = "receiptLabel";
             this.receiptLabel.Size = new System.Drawing.Size(506, 326);
@@ -267,6 +266,7 @@
             // 
             this.neworderLabel.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.neworderLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.neworderLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.neworderLabel.Location = new System.Drawing.Point(314, 391);
             this.neworderLabel.Name = "neworderLabel";
             this.neworderLabel.Size = new System.Drawing.Size(448, 33);
